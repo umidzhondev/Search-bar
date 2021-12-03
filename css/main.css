@@ -1,0 +1,52 @@
+body{
+    background:url("/ALLIMAGES/mountain.jpg") no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.container{
+    padding-top:5rem !important
+}
+.author{
+    margin-top: 200px;
+    color: rgb(89, 0, 255) !important;
+    background-color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+img{
+    width:200px !important;
+    height: 100px !important;
+    object-fit: contain;
+}
+@media (max-width:992px){
+    .yandex{
+        padding-top: 25px;
+    }
+}
+@media (max-width:550px){
+    .inputY, .inputG{
+        font-size: 1.5rem !important;
+    }
+    img{
+        width: 200px;
+    }
+    .card-header{
+        padding: 0 !important;
+    }
+}
+@media (max-width:450px){
+    .inputY, .inputG{
+        font-size: 1.2rem !important;
+    }
+    img{
+        width: 140px;
+    }
+    .card-body{
+        flex-direction: column !important;
+    }
+    .btn{
+        margin-top: 10px;
+        font-size: 1.2rem !important;
+        outline: none;
+    }
+}
